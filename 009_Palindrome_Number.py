@@ -12,5 +12,5 @@ class Solution:
         return True
         '''
         abstract
-        Using list and compare the string of x.Mention that the sign is also turned into a char in the String
+        Using list and compare the string of x.Pay attention that the sign is also turned into a char in the String
         '''
