@@ -14,7 +14,6 @@ class Solution:
         '''
         lst1=self.linklist2list(l1)
         lst1.reverse()
-        # print(lst1)
         s1=''.join(lst1)
         num1=int(s1)
         lst2=self.linklist2list(l2)
@@ -41,7 +40,6 @@ class Solution:
     def list2linklist(self,l1:list)->ListNode:
         node=result=ListNode(l1[0])
         for i in range(len(l1)-1):
-            # node=ListNode(l1[i])
             nxnode=ListNode(l1[i+1])
             node.next=nxnode
             node=nxnode
