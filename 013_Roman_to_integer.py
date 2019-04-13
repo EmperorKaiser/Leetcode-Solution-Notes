@@ -25,11 +25,11 @@ class Solution:
         for sx in SSlist:
             SSNdict[sx]=s.count(sx)
             s=s.replace(sx,'')
-            # remove the counted symbols ,mention that the original s won't be changed if not resigned
+            # remove the counted symbols ,pay attention that the original s won't be changed if not reassigned
         for sx in Slist:
             SNdict[sx]=s.count(sx)
             s=s.replace(sx,'')
-            # remove the counted symbols ,mention that the original s won't be changed if not resigned
+            # remove the counted symbols ,pay attention that the original s won't be changed if not reassigned
 
         if not(s):
             result = \
@@ -40,5 +40,5 @@ class Solution:
        ''' 
        abstract:
        scan the given s and count the special substrings of 'CM','CD','XC'... 
-       and then count the substrings of 'M','D','C'...mention that the symbols that have been counted should be removed
+       and then count the substrings of 'M','D','C'...pay attention that the symbols that have been counted should be removed from the input s
        '''
